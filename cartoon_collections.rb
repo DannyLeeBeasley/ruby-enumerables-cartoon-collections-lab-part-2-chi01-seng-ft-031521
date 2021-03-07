@@ -7,6 +7,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
     planeteer_calls.each do{  |element| element.capitalize }
+  end
     binding.pry
     planeteer_calls.map do{ |element| element.concat "!"}
 end
