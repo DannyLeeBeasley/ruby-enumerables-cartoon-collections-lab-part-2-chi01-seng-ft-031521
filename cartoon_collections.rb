@@ -5,10 +5,9 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-    planeteer_calls.each do{  |element| element.capitalize }
+    planeteer_calls.each do |element| element.capitalize
   end
-    binding.pry
-    planeteer_calls.map do{ |element| element.concat "!"}
+    planeteer_calls.map do |element| element.concat "!"
 end
 
 def long_planeteer_calls(planeteer_calls)
