@@ -9,6 +9,7 @@ def summon_captain_planet(planeteer_calls)
   end
     planeteer_calls.map do |element| element.concat "!"
 end
+end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? do |element| element.length > 4 
